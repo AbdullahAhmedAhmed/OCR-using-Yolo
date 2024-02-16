@@ -1,0 +1,8 @@
+path: /content/drive/MyDrive/Data_car
+train: images/train
+val: images/val
+test: images/test
+
+# classes
+names:
+     0: car name plate
