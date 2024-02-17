@@ -1,5 +1,5 @@
 # OCR-using-Yolo
-In this project i will use YOLO object detection to train a model to detect Egyptian license plates from images and videos. Egyptian license plates have a unique format that makes them identifiable, with the car's character  written in Arabic  and a series of numbers on the bottom. By training YOLO on a large dataset of labeled Egyptian license plate images, I will build a model that can accurately locate license plates within complex scenes.
+In this project i will use YOLO object detection to train a model to detect Egyptian license plates from images and videos. Egyptian license plates have a unique format that makes them identifiable, with the car's character  written in Arabic  beside a series of numbers on the bottom of the car. By training YOLO on a dataset(1200 simple for training ,301 for test 499 for validation) of labeled Egyptian license plate images, I will build a model that can accurately locate license plates within complex scenes.
 
 Once the YOLO model is trained, I will use it to detect license plates from new, unlabeled images and videos. YOLO will output the coordinates of any detected license plates regions. I will then programmatically crop out just those regions from the original images/frames. This will give me sub-images containing only the license plate contents, with the background removed.
 
